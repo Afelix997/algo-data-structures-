@@ -1,13 +1,13 @@
 class HashTable:
   def __init__(self, number_of_buckets):
-    # self.number_of_buckets = number_of_buckets
-    # self.table = [None] * self.number_of_buckets
-    pass
+    self.number_of_buckets = number_of_buckets
+    self.table = [None] * self.number_of_buckets
+    
 
   def hash(self, value):
-    # here is where you'll turn your 'value' into a hash value that will return the index of your table to insert value
-    # IMPORTANT: Think about how you'd store values into the same index
-    pass
+    hash=0
+    for i in range(0,len(value)):
+      
 
   def set(self, value):
     # here is where you'll perform your logic to insert the value into your table

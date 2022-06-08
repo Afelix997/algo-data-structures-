@@ -19,5 +19,7 @@ class Bst:
 
 # ----- Node ------
 class Node:
-  # store your DATA and LEFT and RIGHT values here
-  pass
+ def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = keyl
